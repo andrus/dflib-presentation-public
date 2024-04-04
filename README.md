@@ -18,7 +18,6 @@ docker-compose -f env/docker-compose.yml up -d
 2. Clear Jupyter Java Dependency Cache. This step is needed until the [following issue is fixed](https://github.com/SpencerPark/IJava/issues/63#issuecomment-2010273926) in the iJava kernel.
 
 ```shell
-# 
 rm -rf ~/.ivy2/
 ```
 
