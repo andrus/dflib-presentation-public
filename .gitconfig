@@ -1,0 +1,3 @@
+[filter "clean_ipynb"]
+	smudge = cat
+	clean = env/ipynb-strip-for-vcs.py

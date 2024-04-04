@@ -1,0 +1,13 @@
+version: '3.3'
+name: dflib_presentation
+services:
+  postgres:
+    image: postgres:16.2
+    ports:
+      - "15432:5432"
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: test
+    volumes:
+      - ./sql/postgresql.sql:/docker-entrypoint-initdb.d/postgresql.sql
+
