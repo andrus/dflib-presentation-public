@@ -1,5 +1,6 @@
 # DataFrame: a Swiss Army Knife of Java Data Processing
-_presentation notebook code_
+
+This is a Jupyter notebook code and the demo env setup scripts for the [DataFrame / DFLib.org presentation](https://www.youtube.com/watch?v=OrGqCflOMIc) in the Nashville Java User Group 
 
 ## Git Notes
 After clone, run this to ensure IPython notebooks are committed without output data:
